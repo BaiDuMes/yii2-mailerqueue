@@ -1,0 +1,31 @@
+{
+    "name": "baidumes/mailerqueue",
+
+    "type": "yii2-extension",
+
+    "description": "The Async mailer for the Yii framework",
+    "keywords": ["yii2", "redis", "async", "mailer"],
+    "license": "MIT",
+    "support": {
+    "issues": "https://github.com/BestJason/yii2-mailerqueue/issues",
+        "forum": "",
+        "source": "https://github.com/BestJason/yii2-mailerqueue"
+    },
+    "authors": [
+        {
+            "name": "baidumes",
+            "email": "baidumes@163.com"
+        }
+    ],
+
+    "require": {
+    "yiisoft/yii2": "*",
+        "yiisoft/yii2-redis": "~2.0.0"
+    },
+
+    "autoload": {
+    "psr-4": {
+        "baidumes\\mailerqueue\\": "src/"
+        }
+    }
+}
