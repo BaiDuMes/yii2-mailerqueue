@@ -14,7 +14,7 @@ composer require zangsilu/yii2-mailer-queue
 ```
 ### 使用<br>
 
-#### 1.配置文件<br>
+#### 1. 配置文件<br>
 
 ```php
 <?php
@@ -44,7 +44,7 @@ composer require zangsilu/yii2-mailer-queue
 ```
 
 
-#### 2：创建控制台指令
+#### 2. 创建控制台指令
 
 ```php
 <?php
@@ -60,7 +60,7 @@ class MailerController extends Controller {
     }
 }
 ```
-#### 3：将指令加入lunux定时任务(每分钟检测一次)
+#### 3. 将指令加入lunux定时任务(每分钟检测一次)
 crontab -e
 ```php
 */1 * * * * php yii mailer-queue/send > ./log/mailer-send.log
