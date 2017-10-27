@@ -9,9 +9,9 @@ async mailer
 *composer<br>
 
 ###安装<br>
-
+```php
 composer require zangsilu/yii2-mailer-queue<br>
-
+```
 ###使用<br>
 
 ####1.配置文件<br>
