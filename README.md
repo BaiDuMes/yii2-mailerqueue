@@ -9,19 +9,19 @@ async mailer
 *composer<br>
 
 ###安装<br>
-```php
-composer require zangsilu/yii2-mailer-queue<br>
-```
+
+`composer require zangsilu/yii2-mailer-queue`
+
 ###使用<br>
 
 ####1.配置文件<br>
 
 ```php
 <?php
-    'redis' => [<br>
-    'class' => 'yii\redis\Connection',<br>
-    'hostname' => 'localhost',<br>
-    'port' => 6379,<br>
+    'redis' => [
+    'class' => 'yii\redis\Connection',
+    'hostname' => 'localhost',
+    'port' => 6379,
     'database' => 0,//默认16个库 0-15
 ],
 'mailer' => [
